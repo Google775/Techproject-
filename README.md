@@ -10,18 +10,142 @@
 </head>
 <body>
     <style>
+        body{
+    background-color: black;
+}
+.hero{
+    height: 100vh;
+    width:100%;
+    background-image: url(img1.webp);
+    background-size: cover;
+    background-position: center;
+}
+.hero h2{
+    font-size: 50px;
+    font: optional;
+}
+.btn:hover{
+transform: scale(1.2);
+transition:1s ;
+}
+.name{
+    font-style:oblique;
+    color: rgb(243, 244, 241);
+    padding-left: 10px;
+    }
+    Span{
+        color: red;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    nav ul{
+        display: flex;
+    }
+    nav ul li{
+        padding: 10px 20px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    body{
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+    }
+    nav ul li a{
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    nav ul li a:hover{
+        color: red;
+        transition: 1.5s;
+        transform: scale(1.2);
+    }
+    .btn{
+            background-color: rgb(253, 7, 7);
+            color: antiquewhite;
+            border-radius: 30px;
+            padding: 10px 20px ;
+            text-decoration: none;
+            font-weight: bold;
+    }
+    .content{
+         color: white;
+         font-weight: bold;
+         top: 25%;
+         left: 10%;
+         position: absolute;
+         transform: translate(50%,50%);
+    }
+    h3{
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+    .subscribe form input:first-child{
+        display: inline-block;
+        width: 54%;
+        padding: 15px 120px 14px  14px;
+        border: 3px solid black;
+       border-radius: 40px;
+    }
+    .subscribe form input:last-child{
+        display: inline-block;
+        padding: 10px 30px;
+        border: none;
+        background-color: black;
+        border-radius: 40px;
+        color: white;
+        top: 156px;
+        right:7px;
+        border-radius: 40px;
+        position: absolute;
+        box-shadow: 0px 0px 10px black;
+        }
+    .aboutme{
+        width: 100%;
+        padding: 100px 0px;
+        background-color: black;
+    }
+    .aboutme img{
+        height: 300px;
+        width: auto;
+        border-radius: 40px;
+    }
+    .about_content{
+color: white;
+padding-left: 30px;
+    }
+    .btn_{
+        background-color: rgb(253, 7, 7);
+        color: antiquewhite;
+        border-radius: 30px;
+        padding: 10px 20px ;
+        text-decoration: none;
+        font-weight: bold;
+}
+.btn_:hover{
+    background: transparent;
+    border: 1px solid red;
+    transition: 0.5s;
+    }
+    .main{
+        display: flex;
+        padding-left: 40px;
+    }
+    img:hover{
                 transform: scale(1.2);
         transition:1s;
     }
-   
-    .skills{
+   .skills{
         background-color: black;
         color: antiquewhite;
     padding-top: 10px;
-        
-    }
-
-    .title h2{
+         }
+ .title h2{
         padding-top: 3 0px;
     }
     .box{
@@ -29,8 +153,7 @@
         align-items: center;
         justify-content: center;
     }
-
-    .card{
+.card{
          height: 300px;
          width: 270px;
          color: white;
@@ -44,9 +167,6 @@
         border-radius: 30px;
         padding: 10px 20px;
         text-decoration: none;
-    
-        
-
     }
     .card h4{
         text-align: center;
@@ -54,8 +174,7 @@
         letter-spacing: 1px;
         margin-top: 10px;
         word-spacing: 3px;
-
-    }
+}
     .para .button:hover{
        background-color: transparent;
        border: 2px solid black;
@@ -76,10 +195,8 @@
         color: white;
         text-align: center;
         padding-top: 20px;
-        
-    }
-    
-    .foot .btn1:hover{
+        }
+   .foot .btn1:hover{
         background-color: transparent;
        border: 2px solid rgb(85, 0, 254);
        cursor: pointer;
@@ -104,20 +221,16 @@
         color: white;
         font-weight: bold;
     margin-left: 39%;
-    
-        }.details .reach{
+     }.details .reach{
             font-size: 15px;
             font-weight: bold;
             color: white;
-        }
-
-    .details .reach{
+    }.details .reach{
         color: white;
         font-size: 15px;
         margin-left: 44%;
     }
     .details .social-media a{
-
         width: 30px;
         height: 30px;
         display: inline-flex;
@@ -176,7 +289,6 @@
         font-weight: bold;
     margin-left:10%;   
     }
-    
     </style>
         <div class="hero">
             <h2 class="name">Bharath <span>Annamalai</span></h2>
@@ -222,8 +334,7 @@
                 <div class="para">
                     <p style="text-align: center;">Create ATM Transaction using JAVA
                     <br><br><br><a class="button" href="#">Read more</a></p>
-                
-                </div>
+               </div>
             </div>
             <div class="card">
                 <i class="fa-brands fa-html5"></i>
@@ -231,8 +342,7 @@
                 <div class="para">
                     <p style="text-align: center;">Create Responsive websit using HTML,CSS
                         <br><br><a class="button" href="#">Read more</a></p>
-                
-                </div>
+               </div>
             </div>
             <div class="card">
                 <i class="fa-solid fa-database"></i>
@@ -241,7 +351,7 @@
                     <p style="text-align: center;">Create Responsive Database using SQL
                         <br><br><br><a class="button" href="#">Read more</a></p>
                 
-                </div>
+ </div>
             </div>
         </div>
     </div>
