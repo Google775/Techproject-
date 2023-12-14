@@ -9,6 +9,175 @@
     <link rel="stylesheet" href="stylesheet.css"> 
 </head>
 <body>
+    <style>
+                transform: scale(1.2);
+        transition:1s;
+    }
+   
+    .skills{
+        background-color: black;
+        color: antiquewhite;
+    padding-top: 10px;
+        
+    }
+
+    .title h2{
+        padding-top: 3 0px;
+    }
+    .box{
+        display: flex;  
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card{
+         height: 300px;
+         width: 270px;
+         color: white;
+         background: gray;
+         border-radius: 10px;
+         margin: 12px;
+    }
+    .para .button{
+        background-color: black;
+        color: antiquewhite;
+        border-radius: 30px;
+        padding: 10px 20px;
+        text-decoration: none;
+    
+        
+
+    }
+    .card h4{
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin-top: 10px;
+        word-spacing: 3px;
+
+    }
+    .para .button:hover{
+       background-color: transparent;
+       border: 2px solid black;
+       cursor: pointer;
+       transition: 0.2s;
+    }
+    .card i{
+        color: rgb(1, 1, 1);
+        font-size: 40px;
+        text-align: center;
+        margin: 15px 0px;
+        display: block;
+    }
+    .foot{
+        background: rgb(0, 0, 0);
+        height: 30%;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        
+    }
+    
+    .foot .btn1:hover{
+        background-color: transparent;
+       border: 2px solid rgb(85, 0, 254);
+       cursor: pointer;
+       transition: 0.2s;
+    }
+    .foot .btn1{
+        background-color: rgb(101, 7, 253);
+        color: antiquewhite;
+        border-radius: 30px;
+        padding: 10px 20px ;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .details{
+        width: 100%;
+        display: inline-block;
+        background-color: rgb(0, 0, 0);
+        justify-content: center;
+    }
+    .details .author{
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+    margin-left: 39%;
+    
+        }.details .reach{
+            font-size: 15px;
+            font-weight: bold;
+            color: white;
+        }
+
+    .details .reach{
+        color: white;
+        font-size: 15px;
+        margin-left: 44%;
+    }
+    .details .social-media a{
+
+        width: 30px;
+        height: 30px;
+        display: inline-flex;
+        text-decoration: none;
+        background-color: rgb(85, 0, 255);
+        border-radius: 50%;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 10px;
+        font-size: 20px;
+    }
+    .details .social-media .insta{
+     background-color: rgb(244, 9, 126);
+    }
+    .details .social-media .whats{
+        background-color: rgb(0, 163, 8);
+       }
+       .details .social-media .mail{
+        background-color: red;
+       }
+    .details .social-media{
+        padding-left: 39%;
+    }
+    .details .social-media .linkdn:hover{
+        background-color: transparent;
+        border: 1px solid rgb(89, 0, 255);
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 0.5s;
+    }
+    .details .social-media .insta:hover {
+        background-color: transparent;
+        border: 1px solid rgb(255, 0, 0);
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 0.5s;
+    }
+    .details .social-media .whats:hover {
+        background-color: transparent;
+        border: 1px solid rgb(0, 161, 13);
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 0.5s;
+    }
+    .details .social-media .mail:hover {
+        background-color: transparent;
+        border: 1px solid rgb(255, 0, 0);
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 0.5s;
+    }
+    .social-media .copy{
+        font-size: 10px;
+        color: white;
+        font-weight: bold;
+    margin-left:10%;   
+    }
+    
+    </style>
         <div class="hero">
             <h2 class="name">Bharath <span>Annamalai</span></h2>
             <nav style="float: right;">
